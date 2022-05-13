@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ejercicio09"
+             x:Class="Ejercicio09.DemoCss">
+    <ContentPage.Resources>
+        <StyleSheet Source="/login.css"/>
+    </ContentPage.Resources>
+    <StackLayout StyleId="LoginForm">
+        <Label Text="Login básico sem CSS"/>
+        <StackLayout>
+            <Entry Placeholder="Informe o email"/>
+            <Entry Placeholder="Informe a senha" IsPassword="True"/>
+            <Button Text="Login" StyleClass="primary"/>
+            <Button Text="Esqueceu a Senha?"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

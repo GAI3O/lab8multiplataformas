@@ -1,0 +1,34 @@
+﻿^ContentPage {
+    background-color: #ffcd55;
+    padding: 10;
+}
+^Label {
+    text-align: center;
+    font-style: bold;
+    font-size: 30;
+    color: #c92c2c;
+}
+#LoginForm {
+    background-color: #adf7c2;
+    padding: 10;
+    border-radius: 5;
+    margin-top: 15;
+}
+
+^Entry {
+    font-size: 30;
+    background-color: white;
+    margin: 10 0;
+    color: #0A100D;
+}
+^Button {
+    font-size: 20;
+    color: #A22C29;
+    margin: 5 0;
+}
+^Button.primary {
+    background-color: #2e3094;
+    color: #FFFFFF;
+    font-size: 20;
+    margin: 15 0;
+}
